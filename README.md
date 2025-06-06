@@ -48,3 +48,29 @@ Enter symptoms (comma-separated): headache, nausea, fever
 git clone https://github.com/yourusername/symptom-search-app.git
 cd symptom-search-app
 python main.py
+
+---
+
+
+⚠️ Disclaimer
+This app is for informational purposes only. It does not provide medical advice or diagnosis.
+Always consult with a qualified healthcare professional.
+
+
+---
+
+🤝 Contributing
+Pull requests are welcome! If you’d like to:
+
+Add new illnesses or symptoms
+
+Improve the algorithm
+
+Enhance the user interface
+
+Just fork the repo and submit a PR.
+
+---
+
+👨‍💻 Author
+Built with ❤️ by Leo H
