@@ -1,8 +1,16 @@
 import csv
+import os
 
 def load_database(filename="illness_database.csv"):
+    """Load the illness-symptom database from a CSV file.
+
+    The path is resolved relative to this script so the function works
+    regardless of the current working directory.
+    """
     database = {}
-    with open(filename, newline='') as csvfile:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(script_dir, filename)
+    with open(filepath, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             illness = row["illness"]
