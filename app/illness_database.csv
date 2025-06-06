@@ -1,5 +1,17 @@
 illness,symptoms
-Flu,fever;cough;fatigue;headache
-Cold,sneezing;cough;runny nose
-Migraine,headache;nausea;sensitivity to light
-COVID-19,fever;cough;fatigue;loss of taste
+Flu,fever;cough;fatigue;headache;chills;muscle aches;sore throat;runny nose
+Common Cold,sneezing;cough;runny nose;sore throat;congestion;mild headache;fatigue
+Migraine,headache;nausea;sensitivity to light;sensitivity to sound;visual aura
+COVID-19,fever;cough;fatigue;loss of taste;loss of smell;shortness of breath;sore throat;headache;muscle aches
+Stomach Flu,nausea;vomiting;diarrhea;abdominal cramps;fever;fatigue
+Chickenpox,fever;itchy rash;fatigue;loss of appetite;headache
+Allergic Rhinitis,sneezing;runny nose;itchy eyes;nasal congestion;watery eyes;postnasal drip
+Bronchitis,cough;fatigue;shortness of breath;chest discomfort;sore throat;mild fever
+Pneumonia,fever;chills;cough;shortness of breath;chest pain;fatigue;muscle aches
+Sinusitis,facial pain;nasal congestion;headache;postnasal drip;fever;fatigue
+Gastroenteritis,nausea;vomiting;diarrhea;abdominal cramps;fever;fatigue
+Mononucleosis,fatigue;fever;sore throat;swollen lymph nodes;headache;rash
+Urinary Tract Infection,painful urination;frequent urination;lower abdominal pain;fever;cloudy urine
+Malaria,fever;chills;sweats;headache;nausea;vomiting;muscle pain
+Dengue Fever,fever;headache;muscle pain;joint pain;rash;nausea;vomiting
+Tuberculosis,cough;weight loss;fever;night sweats;fatigue;chest pain
