@@ -2,11 +2,7 @@ import csv
 import os
 
 def load_database(filename="illness_database.csv"):
-    """Load the illness-symptom database from a CSV file.
-
-    The path is resolved relative to this script so the function works
-    regardless of the current working directory.
-    """
+# Check if the file exists
     database = {}
     script_dir = os.path.dirname(os.path.abspath(__file__))
     filepath = os.path.join(script_dir, filename)
@@ -19,6 +15,7 @@ def load_database(filename="illness_database.csv"):
     return database
 
 def match_illnesses(input_symptoms, database, min_matches=2):
+    # Initialize a dictionary to store the matches
     input_set = set(sym.lower() for sym in input_symptoms)
     matches = []
 
@@ -30,11 +27,13 @@ def match_illnesses(input_symptoms, database, min_matches=2):
     return sorted(matches, key=lambda x: -x[1])  # Sort by most matches first
 
 if __name__ == "__main__":
+    # Load the database
     db = load_database()
     symptoms = input("Enter at least 3 symptoms (comma-separated): ").split(",")
     symptoms = [s.strip() for s in symptoms if s.strip()]
 
     if len(symptoms) < 3:
+        # If the user enters less than 3 symptoms, ask them to enter again
         print("❌ Please enter at least 3 symptoms.")
     else:
         results = match_illnesses(symptoms, db)
