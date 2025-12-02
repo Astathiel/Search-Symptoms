@@ -73,4 +73,4 @@ Just fork the repo and submit a PR.
 ---
 
 👨‍💻 Author
-Built with ❤️ by Leo H
+Built with ❤️ by Asta
